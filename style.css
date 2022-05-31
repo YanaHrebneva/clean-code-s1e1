@@ -88,7 +88,7 @@ button {
   text-transform: uppercase;
 }
 
-.new-task__wrapper--input,
+.new-task__wrapper_input,
 .list__input {
   margin: 0;
   font-size: 18px;
@@ -102,7 +102,7 @@ button {
   color: #888;
 }
 
-.new-task__wrapper--input:focus,
+.new-task__wrapper_input:focus,
 .list__input:focus {
   color: #333;
 }
@@ -118,7 +118,7 @@ button {
   width: 318px;
 }
 
-.task-row__wrapper--button:hover {
+.task-row__wrapper_button:hover {
   color: #0fc57c;
 }
 
