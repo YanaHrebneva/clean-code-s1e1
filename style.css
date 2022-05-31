@@ -61,7 +61,7 @@ button {
   display: flex;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -71,7 +71,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -124,8 +124,7 @@ button:hover {
 
 /* Task list */
 
-.list,
-li {
+.list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -133,10 +132,6 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-
-/* li > * {
-  vertical-align: middle;
-} */
 
 .list__checkbox {
   margin: 0 10px;
@@ -165,22 +160,22 @@ li {
 
 /* Completed */
 
-#completed-tasks label {
+#completed-tasks .list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-ul li input[type=text] {
+.hidden {
   display: none;
 }
 
-ul .edit-mode input[type=text] {
+.edit-mode .list__input {
   display: inline-block;
   width: 224px;
 }
 
-ul .edit-mode label {
+.edit-mode .list__label {
   display: none;
 }
